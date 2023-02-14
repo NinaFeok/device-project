@@ -1,0 +1,28 @@
+{
+  "name": "device-project",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.21"
+  },
+  "scripts": {
+    "build": "gulp styles",
+    "start": "npx gulp"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all",
+    "not < 0.25%"
+  ],
+  "engines": {
+    "node": "^16"
+  },
+  "type": "module"
+}

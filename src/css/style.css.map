@@ -1,0 +1,1 @@
+{"version":3,"sources":["blocks/page.less","style.css"],"names":[],"mappings":"AAAA;EACE,yBAAA;ACCF;ADCA;EACE,2BAAA;ACCF","file":"style.css","sourcesContent":[".page__body {\n  background-color: #3e1ef5;\n}\nbody {\n  background-color: aliceblue;\n}\n",".page__body {\n  background-color: #3e1ef5;\n}\nbody {\n  background-color: aliceblue;\n}\n"]}
