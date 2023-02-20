@@ -178,6 +178,9 @@ a {
   color: #000000;
   padding: 15px 0;
 }
+.promo-card {
+  display: flex;
+}
 .catalog-category__wrapper {
   width: 1160px;
   margin: 0 auto;
@@ -207,8 +210,32 @@ a {
   letter-spacing: -0.02em;
   color: #000000;
 }
-.promo-card {
+.delivery__wraper {
+  width: 1160px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delivery__icon {
+  background-color: #ffe17f;
+  min-width: 125px;
+  min-height: 100px;
+}
+.delivery__slogan {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.delivery__button {
+  min-width: 125px;
+  min-height: 100px;
 }
 .delivery-modal {
   display: none;
