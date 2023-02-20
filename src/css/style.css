@@ -58,6 +58,7 @@ a {
   flex-direction: column;
   min-height: 100%;
   padding-top: 40px;
+  background-color: #ffffff;
 }
 .page__main {
   flex-grow: 1;
@@ -176,6 +177,35 @@ a {
   text-transform: uppercase;
   color: #000000;
   padding: 15px 0;
+}
+.catalog-category__wrapper {
+  width: 1160px;
+  margin: 0 auto;
+}
+.catalog-category__list {
+  display: flex;
+  column-gap: 40px;
+}
+.catalog-category__item {
+  width: 160px;
+}
+.catalog-category__link {
+  display: block;
+}
+.catalog-category__icon {
+  width: 100%;
+  height: 160px;
+  background-color: #ffe17f;
+  margin-bottom: 32px;
+}
+.catalog-category__title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
 }
 .promo-card {
   display: flex;
