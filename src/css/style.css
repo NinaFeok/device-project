@@ -73,6 +73,9 @@ a {
 .header {
   background-color: #ffffff;
 }
+.header__logo {
+  align-self: flex-start;
+}
 .header__wrapper {
   box-sizing: border-box;
   padding: 0 60px 150px;
@@ -130,7 +133,6 @@ a {
 }
 .search-form__input {
   flex-grow: 1;
-  box-sizing: border-box;
   padding-left: 48px;
   border-radius: 50px 0 0 50px;
 }
