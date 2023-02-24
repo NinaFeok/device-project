@@ -253,8 +253,10 @@ a {
 }
 .сompany-info__wrapper {
   display: flex;
+  column-gap: 108px;
 }
 .сompany-info__container {
+  min-width: 520px;
   padding-top: 47px;
 }
 .сompany-info__title {
@@ -279,14 +281,10 @@ a {
   line-height: 30px;
   color: #444444;
 }
-.сompany-info__delivery-item {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  color: #000000;
+.сompany-info__delivery {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 .сompany-info__subtitle {
   font-family: "Rubik", sans-serif;
@@ -296,6 +294,29 @@ a {
   line-height: 30px;
   color: #444444;
   margin-bottom: 15px;
+}
+.transport-company__text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+}
+.transport-company__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+}
+.transport-company__item {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding-left: 34px;
 }
 .store-address__phone {
   text-decoration-line: underline;
