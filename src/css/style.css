@@ -28,7 +28,8 @@ h3 {
   font-weight: 400;
   margin: 0;
 }
-p {
+p,
+dd {
   margin: 0;
 }
 ul,
@@ -39,6 +40,7 @@ ol {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 .visually-hidden {
   position: absolute;
@@ -78,7 +80,7 @@ a {
 }
 .header__wrapper {
   box-sizing: border-box;
-  padding: 0 60px 150px;
+  padding: 0 60px 134px;
   background-color: #ffe17f;
 }
 .header__nav {
@@ -141,18 +143,6 @@ a {
   border-radius: 0 50px 50px 0;
   border-left: none;
 }
-.button {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #000000;
-  border: none;
-  background-color: transparent;
-}
 .login-button {
   padding: 0 150px 0 27px;
 }
@@ -197,8 +187,82 @@ a {
   color: #000000;
   padding: 15px 0;
 }
-.promo-card {
+.promo__wrapper {
+  position: relative;
+}
+.promo-slider__number {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 30px;
+  color: #ffffff;
+  position: absolute;
+  right: 49px;
+  top: -68px;
+}
+.promo-slider__card-product {
   display: flex;
+  column-gap: 40px;
+}
+.promo-card__slogan {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 29px;
+}
+.promo-card__desc {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+  margin-bottom: 50px;
+}
+.promo-card__button {
+  margin-bottom: 50px;
+}
+.promo-card__product-option {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.promo-card__option-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.promo-card__product-value {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+  color: #000000;
+}
+.promo-card__product-desc {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #444444;
+}
+.button {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  border: none;
+  background-color: transparent;
 }
 .catalog-category__list {
   display: flex;
@@ -296,6 +360,9 @@ a {
   line-height: 30px;
   color: #444444;
   margin-bottom: 15px;
+}
+.сompany-info__button {
+  align-self: flex-start;
 }
 .transport-company__text {
   font-family: "Rubik", sans-serif;
