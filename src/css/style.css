@@ -83,7 +83,7 @@ button {
 }
 .header__wrapper {
   box-sizing: border-box;
-  padding: 0 60px 134px;
+  padding: 0 60px 109px;
   background-color: #ffe17f;
 }
 .header__nav {
@@ -511,6 +511,9 @@ button {
   text-transform: uppercase;
   color: #000000;
   background-color: transparent;
+}
+.footer {
+  background-color: #444444;
 }
 .delivery-modal {
   display: none;
